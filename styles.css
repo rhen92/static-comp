@@ -1,0 +1,46 @@
+.navigation {
+  background-color: #2B2B2B;
+  height: 18vh;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.word-container {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.fas {
+  padding: 10px
+}
+
+.company {
+display: flex;
+align-items: center;
+}
+/* ~~~~~~ Main Area ~~~~~~~*/
+main {
+  background-color: #EFEFEF;
+}
+
+.adopt {
+  margin-top: 0;
+}
+
+.dog-container {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 25%);
+}
+
+.dog-area {
+
+}
+
+.dog-pic {
+  height: 20vh;
+  width: 20vw;
+}
