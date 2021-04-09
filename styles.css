@@ -32,15 +32,20 @@ main {
 
 .dog-container {
   display: grid;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(2, 25%);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  max-height: 170vh;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .dog-area {
-
+  height: 55vh;
+  border: 1px solid #C2C7CF;
 }
 
 .dog-pic {
-  height: 20vh;
-  width: 20vw;
+  height: 27vh;
+  width: 24vw;
+  margin-left: 2px;
 }
