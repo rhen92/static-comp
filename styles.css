@@ -1,0 +1,168 @@
+* {
+  font-family: "Open Sans";
+}
+
+.navigation {
+  background-color: #2B2B2B;
+  height: 18vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gray-font {
+  color: #7C7C7C
+}
+
+.fa-share-alt,
+.fa-list-ul {
+  color: #2D9BD6;
+  padding: 10px;
+}
+
+.white-font,
+.fa-user {
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+.word-container {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.company {
+display: flex;
+align-items: center;
+color: #FFFFFF
+}
+
+.fa-paw {
+  padding: 10px;
+  font-size: 25px;
+}
+
+/* ~~~~~~ Main Area ~~~~~~~*/
+main {
+  background-color: #EFEFEF;
+}
+
+.adopt {
+  margin-top: 0;
+}
+
+.dog-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  max-height: 170vh;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.dog-area {
+  height: 55vh;
+  border: 1px solid #C2C7CF;
+  box-shadow: 1px 1px 1px 1px #C2C7CF;
+}
+
+.dog-pic {
+  height: 30vh;
+  width: 24vw;
+}
+
+.fa-heart {
+  color: #2D9BD6;
+  padding: 5px;
+  font-size: 30px;
+  position: absolute;
+}
+
+p {
+  color: #2D9BD6;
+  font-size: 25px;
+}
+
+/* ~~~~~~ Media ~~~~~~~*/
+@media screen and (max-width: 768px) {
+  .dog-area {
+    height: 60vh;
+  }
+
+  .dog-container {
+    margin-left: 0;
+  }
+
+  .dog-pic {
+    width: 23.5vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navigation {
+    font-size: 10px;
+  }
+
+  .fa-share-alt,
+  .fa-list-ul,
+  .fa-paw {
+    padding: 5px;
+  }
+
+  main {
+    height: 80vh;
+  }
+
+  .dog-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-left: 0;
+  }
+
+  .dog-area {
+    height: 70vh;
+  }
+
+  .dog-pic {
+    width: 31vw;
+  }
+
+  .fa-heart {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  .fa-paw {
+    margin-right: 5px;
+  }
+
+  .fa-list-ul {
+    font-size: 23px;
+  }
+
+  .hidden {
+    display: none!important;
+  }
+
+  main {
+    margin-left: 0;
+  }
+
+  .fa-heart {
+    font-size: 20px;
+  }
+
+  .dog-pic {
+    width: 30.5vw;
+    height: 30vh;
+  }
+} 
