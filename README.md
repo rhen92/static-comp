@@ -8,6 +8,9 @@ Turing 2102 FE Mini Project
 - HTML
 - CSS
 
+## Deploy Link:
+https://rhen92.github.io/static-comp/
+
 ## Project Goals:
 - Recreate a webpage with a given comp to go off of
 - Get practice using CSS grid and normalize CSS
